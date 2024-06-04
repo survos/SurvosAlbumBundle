@@ -1,8 +1,5 @@
-# Webelop/AlbumBundle
+# Survos/SurvosAlbumBundle
 
------
-This repository is no longer maintained
------
 
 This is a complete [Symfony](https://symfony.com/doc/current/setup.html) bundle for running a light-weight photo browsing
 and sharing website on a PHP server.
