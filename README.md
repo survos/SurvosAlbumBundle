@@ -11,16 +11,20 @@ The server may resize and prepare the previews and video streams or rely on exis
 computer. As the bundle is designed to work on low-powered devices, it is advised to install the additional helpers on
 the local computers to synchronise and prepare the image previews.
 
-Packagist: [Webelop/AlbumBundle](https://packagist.org/packages/webelop/album-bundle)
+Packagist: [Survos/SurvosAlbumBundle](https://packagist.org/packages/survos/album-bundle)
+
+Forked from abandoned package: [Webelop/AlbumBundle](https://packagist.org/packages/webelop/album-bundle)
 
 ## Requirements
 
-This bundle depends on Doctrine bundle, Symfony security, routing and Twig
+This bundle depends on Doctrine bundle, Symfony security, routing and Twig.  Symfony 6.4+
 
 ## Installation
 
 - Install the composer package:
-```composer require webelop/album-bundle```
+```bash
+composer require survos/album-bundle
+```
 
 - Adjust the configuration in `config/packages/webelop_album.yml` or `.env`
     ```
